@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@keyframes marqueeContinuous {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-marquee-continuous {
+  display: flex;
+  width: max-content;
+  animation: marqueeContinuous 32s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-continuous:hover,
+.animate-marquee-continuous:active {
+  animation-play-state: paused;
+}
+
+@media (max-width: 640px) {
+  .animate-marquee-continuous {
+    animation-duration: 24s;
+  }
+}
