@@ -1,0 +1,6 @@
+{
+  "name": "Apostila de Marcenaria",
+  "description": "+1.000 projetos de marcenaria prontos com medidas e lista de materiais para iniciantes por apenas R$ 5.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
